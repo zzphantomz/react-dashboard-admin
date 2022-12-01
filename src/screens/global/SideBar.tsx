@@ -15,7 +15,7 @@ import PieChartOutlinedIcon from '@mui/icons-material/PieChartOutlined';
 import TimerOutlinedIcon from '@mui/icons-material/TimerOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
-
+import User from '../../assets/user.png'
 
 interface IItem {
   title:string,
@@ -98,7 +98,7 @@ const SideBar = () =>{
                 ml="15px"
               >
                 <Typography variant="h3" color={colors.grey[100]}>
-                  ADMINIS
+                  ADMIN
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                   <MenuOutlinedIcon />
@@ -114,7 +114,7 @@ const SideBar = () =>{
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/user.png`}
+                  src={User}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -125,10 +125,10 @@ const SideBar = () =>{
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Long Vo
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                 Test Frontend
                 </Typography>
               </Box>
             </Box>

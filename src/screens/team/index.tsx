@@ -100,9 +100,9 @@ const Team = () => {
           "& .MuiCheckbox-root": {
             color: `${colors.greenAccent[200]} !important`,
           },
-          "& .MuiButtonBase-root":{
-            color: `${colors.greenAccent[200]} !important`,
-          }
+          "& .MuiDataGrid-toolbarContainer .MuiButton-text": {
+            color: `${colors.grey[100]} !important`,
+          },
         }}
       >
         <DataGrid checkboxSelection
